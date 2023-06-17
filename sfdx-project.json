@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "experience-utils",
+      "default": true
+    }
+  ],
+  "name": "experience-utils",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "58.0"
+}
