@@ -3,8 +3,13 @@
     {
       "path": "experience-utils",
       "default": true
+    },
+    {
+      "path": "experience-ui",
+      "default": false
     }
   ],
+  "pushPackageDirectoriesSequentially": true,
   "name": "experience-utils",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",

@@ -1,0 +1,12 @@
+/*
+        1. Upload static resource
+        2. Add the following line to head markup `Builder > Settings > Advanced > Edit Head Markup`
+            `<link rel="stylesheet" href="{ basePath }/resource/overrides/common.css?{ versionKey }`
+*/
+
+/* Sticky footer for LWR pages with Flexible Layout */
+community_byo-scoped-header-and-footer {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
