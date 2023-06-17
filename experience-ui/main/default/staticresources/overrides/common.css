@@ -1,0 +1,6 @@
+/* Sticky footer for LWR pages with Flexible Layout */
+community_byo-scoped-header-and-footer {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
