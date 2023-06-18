@@ -8,5 +8,14 @@
         <members>Experience_Utils1</members>
         <name>DigitalExperienceConfig</name>
     </types>
+    <types>
+        <members>CustomLabelController</members>
+        <members>CustomLabelService</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>customLabel</members>
+        <name>LightningComponentBundle</name>
+    </types>
     <version>58.0</version>
 </Package>

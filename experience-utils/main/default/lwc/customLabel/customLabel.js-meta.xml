@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <description>Custom Label</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Custom Label</masterLabel>
+    <targets>
+        <target>lightningCommunity__Default</target>
+        <target>lightningCommunity__Page</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="customLabelApiName" label="Custom Label API Name" type="String"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
